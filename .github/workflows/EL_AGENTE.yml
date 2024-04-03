@@ -18,4 +18,4 @@ jobs:
     - name: Build the Docker image
       run: |
            docker pull fluidattacks/forces:new
-           docker run fluidattacks/forces:new forces --token ${{env.ftoken}} -v --strict --breaking 9.0 --static --repo-name makes2
+           docker run fluidattacks/forces:new forces --token ${{env.ftoken}} -v --strict --breaking 9.0 --static
